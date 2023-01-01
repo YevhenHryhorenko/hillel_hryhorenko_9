@@ -148,6 +148,7 @@ body {
 .wrapper-hero {
 	background-image: url(../images/super-chair.jpg);
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .hero {
