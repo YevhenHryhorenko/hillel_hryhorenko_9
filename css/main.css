@@ -28,13 +28,20 @@ body {
 .top-menu .top-menu-item {
 	display: inline-block;
 	margin-right: 30px;
+}
+
+.top-menu .top-menu-item a {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 16px;
 	color: #333333;
 }
 
-.top-menu .top-menu-item:hover {
+.top-menu .top-menu-item:last-child {
+	margin-right: 0;
+}
+
+.top-menu .top-menu-item a:hover {
 	color: var(--color-brand);
 	transition: all 0.3s;
 }
@@ -122,7 +129,18 @@ body {
 	color: #000000;
 }
 
-.main-menu .main-menu-item:hover {
+.main-menu .main-menu-item a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+}
+
+.main-menu .main-menu-item:last-child {
+	margin-right: 40px;
+}
+
+.main-menu .main-menu-item a:hover {
 	color: var(--color-brand);
 	transition: all 0.3s;
 }
@@ -207,11 +225,6 @@ body {
 	width: 255px;
 	padding: 25px 30px;
 	text-align: center;
-}
-
-.card:hover {
-	box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
-		0px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .card-description {
@@ -394,14 +407,14 @@ body {
 	margin-top: 25px;
 }
 
-.category {
+.category a {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 28px;
 	color: #828282;
 }
 
-.category:hover {
+.category a:hover {
 	color: var(--color-brand);
 	transition: all 0.3s;
 }
@@ -414,6 +427,7 @@ body {
 
 .links-left {
 	float: left;
+	height: 45px;
 }
 
 .tel-right {
@@ -422,7 +436,18 @@ body {
 }
 
 .link-soc-network {
+	display: inline-block;
 	margin-right: 20px;
+}
+
+.link-soc-network:last-child {
+	margin-right: 0;
+}
+
+.img-soc {
+	display: block;
+	min-width: 100%;
+	height: auto;
 }
 
 .wrappper-footer-bottom {
