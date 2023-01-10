@@ -137,7 +137,7 @@ body {
 }
 
 .main-menu .main-menu-item:last-child {
-	margin-right: 40px;
+	margin-right: 0;
 }
 
 .main-menu .main-menu-item a:hover {
